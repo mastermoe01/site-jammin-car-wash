@@ -1,0 +1,143 @@
+{
+ "captured": "2026-11-07",
+ "source": "https://www.jammincarwash.com/ (prices), https://www.jammincarwash.com/family-and-annual-plans/ (annual + family), wash_packages/* (tier contents)",
+ "notes": [
+  "Homepage order Basic/Good/Ceramic X3/Graphene X5 from title images",
+  "'First month' = 'Join the Daily Wash Club $X /First Month'",
+  "Family plans can only be purchased at the location",
+  "Annual plans: 12 months for the price of 10; 1 license plate",
+  "Soft touch available; must self-prep before wash"
+ ],
+ "items": {
+  "Graphene X5": "Provides a level of gloss that will blow your mind. This comprehensive super-sealant amplifies the best aspects of ceramics.",
+  "Ceramic X3": "Bonding at a molecular level, the three-step layering process of CERAMIC X3 forms a durable shield that is resistant to dirt, bird droppings, contaminants and water.",
+  "Fusion Bath": "Our Fusion Bath breaks the bond of the most difficult surface contaminants with a specially-formulated low pH detergent. Applied in a thin sheet of foam that envelops the car!",
+  "Fusion Prime": "Lifts embedded road grime to prime painted surfaces for total adhesion of the Fusion Seal. This ultra-low pH detergent is applied in precise streams that penetrate prior foam applications.",
+  "Fusion Rinse": "Breaks down and removes foam residue to expose painted surfaces to the Fusion Seal. The Fusion Rinse is infused into a waterfall rinse that flushes all grooves, crevices, and behind mirrors.",
+  "Fusion Seal": "Our Fusion Seal locks out dirt and protects painted surfaces with a formula that chemically bonds to the surface. The application of overlapping droplets evenly spreads for continuous coverage.",
+  "Fusion Wax": "Enhance the depth and quality of your car’s shine with our poly-synthetic wax blended with genuine carnauba. Fusion Wax is applied in a cascading sheet of airy foam for complete coating.",
+  "Fusion Rain Repel": "Improve all-weather glass visibility with this hydrophobic spray application. Fusion Rain Repel is applied to glass surfaces with precision-targeting.",
+  "Wheel Bright": "Ultimate in real cleaning and brightening results. Restores the new-car shine to your wheels.",
+  "Undercarriage Wash": "Prevents corrosion causing grime from building up under the vehicle with a rinse that gently removes dirt, mud and other road crud.",
+  "Buff-N-Shine": "Eliminates any remaining water droplets and gently buffs the surface to improve the shine of your car.",
+  "Dry": "Our drying agent results in a quickly dried vehicle.",
+  "Wash": "Basic Wash that is fast, easy and convenient.",
+  "Wheel Cleaner": "Breaks down the dirt and grime of everyday road use.",
+  "Triple Foamer": "Three colors of rich foaming polish that enhances the paint’s shine and protection. It contains polymer protection that bonds to the vehicle’s paint and clear coat surface.",
+  "Presoak": "Remove road film and bug residue without scrubbing or scraping.",
+  "Tire Shine": "Produces a high gloss finish to give your tires that new look and feel. Designed to give excellent gloss and leveling properties to tires."
+ },
+ "tiers": [
+  {
+   "id": "basic",
+   "name": "Basic",
+   "single": 14,
+   "monthly": 25,
+   "first_month": 14,
+   "annual": 250,
+   "family": {
+    "2": 45,
+    "3": 65,
+    "4": 85
+   },
+   "includes": [
+    "Wash",
+    "Dry",
+    "Presoak",
+    "Triple Foamer",
+    "Wheel Cleaner",
+    "Tire Shine"
+   ],
+   "source": "https://www.jammincarwash.com/wash_packages/good-wash/ (tier marker 'Basic Wash')"
+  },
+  {
+   "id": "good",
+   "name": "Good",
+   "single": 18,
+   "monthly": 30,
+   "first_month": 18,
+   "annual": 300,
+   "family": {
+    "2": 55,
+    "3": 80,
+    "4": 105
+   },
+   "includes": [
+    "Wash",
+    "Dry",
+    "Presoak",
+    "Triple Foamer",
+    "Wheel Cleaner",
+    "Tire Shine",
+    "Wheel Bright",
+    "Fusion Wax",
+    "Fusion Rain Repel"
+   ],
+   "source": "https://www.jammincarwash.com/wash_packages/better-wash/ (tier marker 'Good Wash')"
+  },
+  {
+   "id": "ceramic-x3",
+   "name": "Ceramic X3",
+   "single": 25,
+   "monthly": 45,
+   "first_month": 25,
+   "annual": 450,
+   "family": {
+    "2": 85,
+    "3": 125,
+    "4": 165
+   },
+   "includes": [
+    "Wash",
+    "Dry",
+    "Presoak",
+    "Triple Foamer",
+    "Wheel Cleaner",
+    "Tire Shine",
+    "Wheel Bright",
+    "Fusion Rain Repel",
+    "Fusion Bath",
+    "Fusion Prime",
+    "Fusion Rinse",
+    "Fusion Seal",
+    "Undercarriage Wash",
+    "Buff-N-Shine",
+    "Ceramic X3"
+   ],
+   "source": "https://www.jammincarwash.com/wash_packages/ceramic-x3/"
+  },
+  {
+   "id": "graphene-x5",
+   "name": "Graphene X5",
+   "single": 30,
+   "monthly": 50,
+   "first_month": 30,
+   "annual": 500,
+   "family": {
+    "2": 95,
+    "3": 140,
+    "4": 185
+   },
+   "includes": [
+    "Wash",
+    "Dry",
+    "Presoak",
+    "Triple Foamer",
+    "Wheel Cleaner",
+    "Tire Shine",
+    "Wheel Bright",
+    "Fusion Wax",
+    "Fusion Rain Repel",
+    "Fusion Bath",
+    "Fusion Prime",
+    "Fusion Rinse",
+    "Fusion Seal",
+    "Undercarriage Wash",
+    "Buff-N-Shine",
+    "Ceramic X3",
+    "Graphene X5"
+   ],
+   "source": "https://www.jammincarwash.com/wash_packages/graphene-x5/"
+  }
+ ]
+}

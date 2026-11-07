@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* Design tokens — clients/jammin-car-wash/design-brief.md */
+@theme {
+  --color-concrete: #f5f8fb;
+  --color-mist: #e6eef5;
+  --color-card: #ffffff;
+  --color-ink: #0b1b3a;
+  --color-ink-2: #3a4a66;
+  --color-jam: #ea1824;
+  --color-jam-deep: #c5101b;
+  --color-canopy: #0577b5;
+  --color-sky: #6cccf0;
+  --color-hose: #004290;
+  --color-tunnel: #0a0f24;
+  --color-tunnel-2: #141a38;
+
+  --font-display: var(--font-bricolage), system-ui, sans-serif;
+  --font-sans: var(--font-figtree), system-ui, sans-serif;
+
+  --ease-roll: cubic-bezier(0.2, 0.9, 0.25, 1);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--color-concrete);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
+
+.label {
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-canopy);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.btn-join {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  background: var(--color-jam);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.9rem 1.6rem;
+  transition: background 0.2s, transform 0.2s var(--ease-roll);
+}
+.btn-join:hover {
+  background: var(--color-jam-deep);
+  transform: translateY(-1px);
+}
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  border: 1.5px solid currentColor;
+  font-weight: 700;
+  padding: 0.85rem 1.5rem;
+  transition: background 0.2s;
+}
+.btn-ghost:hover {
+  background: rgb(11 27 58 / 0.06);
+}
+
+.lane-rule {
+  background-image: repeating-linear-gradient(90deg, var(--color-ink) 0 28px, transparent 28px 48px);
+  height: 3px;
+  opacity: 0.12;
+}
